@@ -15,3 +15,7 @@ app.get('/', (req, res) => {
 app.get('/adios', (req, res) => {
     res.json('Bye-GCP');
 });
+
+app.get('/hastaluego', (req, res) => {
+    res.json('Hastaluego-GCP');
+});
